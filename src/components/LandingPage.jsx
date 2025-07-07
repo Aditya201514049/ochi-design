@@ -5,17 +5,14 @@ function LandingPage() {
   return (
     <div className='w-full h-screen bg-zinc-900 pt-1'>
       <div className='textstructure mt-40 px-10'>
-        <div className='masker'>
+        {["We create", "Eye - Opening", "Presentations"].map((item, index)=>{
+          return <div className='masker'>
           <h1 className="uppercase text-7xl leading-none tracking-tighter font-semibold font-['Test_Founders_Grotesk_X-Condensed']">
-            We Create
-          </h1>
-          <h1 className="uppercase text-7xl leading-none tracking-tighter font-semibold font-['Test_Founders_Grotesk_X-Condensed']">
-            Eye - Openings
-          </h1>
-          <h1 className="uppercase text-7xl leading-none tracking-tighter font-semibold font-['Test_Founders_Grotesk_X-Condensed']">
-            Presentations
+            {item}
           </h1>
         </div>
+        })}
+        
       </div>
       <div className='border-t-[1px] border-zinc-800 mt-32 flex justify-between items-center py-5 px-20'>
         {[
