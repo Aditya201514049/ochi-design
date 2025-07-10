@@ -9,7 +9,7 @@ function LandingPage() {
           return <div className='masker'>
             <div className='w-fit flex items-center'>
               {index === 1 && (<div className='w-[9vw] h-[5vw] bg-red-500'></div>)}
-              <h1 className="uppercase text-7xl leading-none tracking-tighter font-semibold font-['Test_Founders_Grotesk_X-Condensed']">
+              <h1 className="uppercase text-7xl leading-none tracking-tighter font-founders">
                 {item}
               </h1>
             </div>
